@@ -51,3 +51,11 @@ function validarFormulario() {
     }
     return true; 
 }
+
+document.getElementById('telefone').addEventListener('focus', function() {
+    this.setAttribute('type', 'text');
+});
+
+document.getElementById('telefone').addEventListener('blur', function() {
+    this.setAttribute('type', 'number');
+});
