@@ -49,6 +49,8 @@ form input {
     padding: 12px;
     margin-left: 10px;
     border-radius: 50px;
+    width: auto;
+    text-align: center;
 }
 
 #nome {
